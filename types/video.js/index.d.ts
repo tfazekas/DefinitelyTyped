@@ -6257,10 +6257,10 @@ export interface VideoJsPlayer extends videojs.Component {
     autoplay(): videojs.Autoplay;
 
     /**
-     * Get the remote {@link TextTrackList}
+     * Get the remote {@link videojs.TextTrackList}
      * @return The current remote text track list
      */
-    textTracks(): TextTrackList;
+    textTracks(): videojs.TextTrackList;
 
     /**
      * Get the remote {@link videojs.AudioTrackList}
